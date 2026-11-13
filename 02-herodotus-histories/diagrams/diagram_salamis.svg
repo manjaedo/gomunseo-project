@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="background:#fcfbf9; font-family:'Noto Serif KR', 'Nanum Myeongjo', serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrRed2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b22222" />
+    </marker>
+    <marker id="arrBlue2" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e4d8c" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <rect x="20" y="15" width="760" height="42" rx="4" fill="#1b2a4a" />
+  <text x="400" y="42" text-anchor="middle" font-size="16" font-weight="bold" fill="#f4d06f" letter-spacing="2">살라미스 해전 (BC 480) 테미스토클레스의 해협 유인 및 충각 섬멸도</text>
+
+  <!-- Land: Attica Coast (North) -->
+  <path d="M 20 70 L 780 70 L 780 180 Q 450 160 20 180 Z" fill="#e8dfd1"/>
+  <text x="500" y="110" font-size="13" font-weight="bold" fill="#5c5243">아티카 본토 (Attica Mainland)</text>
+
+  <!-- Throne of Xerxes on Mount Aigaleo -->
+  <g transform="translate(460, 125)">
+    <circle cx="15" cy="15" r="14" fill="#d4af37" stroke="#7a4b00" stroke-width="2"/>
+    <text x="15" y="19" text-anchor="middle" font-size="11" font-weight="bold" fill="#222">왕좌</text>
+    <text x="35" y="19" font-size="10" font-weight="bold" fill="#8b0000">크세르크세스 황제의 옥좌 (아이갈레오스 산)</text>
+  </g>
+
+  <!-- Land: Salamis Island (South/West) -->
+  <path d="M 20 280 Q 300 240 450 360 L 450 430 L 20 430 Z" fill="#e0d7c7"/>
+  <text x="140" y="370" font-size="16" font-weight="bold" fill="#5c5243">살라미스 섬 (Salamis Island)</text>
+  <text x="140" y="395" font-size="10.5" fill="#776c5b">그리스 피난민 및 연합 함대 집결지</text>
+
+  <!-- Psyttaleia Island (East Entrance) -->
+  <ellipse cx="680" cy="270" rx="45" ry="25" fill="#cfc4b0" stroke="#8c7d67"/>
+  <text x="680" y="274" text-anchor="middle" font-size="10" font-weight="bold" fill="#444">프시탈레이아 섬<br/>(페르시아 보병 주둔)</text>
+
+  <!-- Strait Water (Salamis Strait) -->
+  <!-- Water label -->
+  <text x="360" y="225" text-anchor="middle" font-size="12" fill="#2b5c8f" font-weight="bold">살라미스 좁은 수로 (너비 약 1~2km)</text>
+
+  <!-- GREEK TRIREME FLEET (Blue) - Waiting in crescent/line formation -->
+  <!-- Left Wing (Spartan/Peloponnesian) -->
+  <rect x="230" y="195" width="22" height="40" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+  <text x="241" y="190" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e4d8c">스파르타익</text>
+
+  <!-- Center (Allied) -->
+  <rect x="270" y="215" width="22" height="40" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+
+  <!-- Right Wing (Athenian - Themistocles) -->
+  <rect x="310" y="245" width="22" height="45" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+  <text x="321" y="305" text-anchor="middle" font-size="9" font-weight="bold" fill="#1e4d8c">아테네익 (테미스토클레스)</text>
+
+  <text x="160" y="250" font-size="11.5" font-weight="bold" fill="#1e4d8c">그리스 삼단노선<br/>약 370척<br/>(기동성·충각 특화)</text>
+
+  <!-- PERSIAN FLEET (Red) - Jammed into the narrow strait -->
+  <!-- Phoenician wing (facing Athenians) -->
+  <rect x="440" y="185" width="30" height="25" rx="2" fill="#b22222" filter="url(#shadow)"/>
+  <rect x="475" y="190" width="30" height="25" rx="2" fill="#b22222" filter="url(#shadow)"/>
+  <rect x="510" y="195" width="30" height="25" rx="2" fill="#b22222" filter="url(#shadow)"/>
+  <text x="475" y="175" text-anchor="middle" font-size="9" font-weight="bold" fill="#b22222">페니키아 정예 함대</text>
+
+  <!-- Ionian & Caria wing (Artemisia) -->
+  <rect x="450" y="240" width="30" height="25" rx="2" fill="#d9534f" filter="url(#shadow)"/>
+  <rect x="485" y="250" width="30" height="25" rx="2" fill="#d9534f" filter="url(#shadow)"/>
+  <rect x="520" y="260" width="30" height="25" rx="2" fill="#d9534f" filter="url(#shadow)"/>
+  <text x="500" y="300" text-anchor="middle" font-size="9" font-weight="bold" fill="#b22222">이오니아·카리아 함대</text>
+
+  <rect x="560" y="215" width="40" height="55" rx="2" fill="#8b0000" filter="url(#shadow)"/>
+  <text x="580" y="245" text-anchor="middle" font-size="9" font-weight="bold" fill="#fff">후속 대형선<br/>(자중지란)</text>
+
+  <text x="610" y="195" font-size="11.5" font-weight="bold" fill="#b22222">페르시아 대함대<br/>약 800~1,000척<br/>(좁은 해협에 갇힘)</text>
+
+  <!-- ATTACK ARROWS -->
+  <!-- Greek Ramming Attack -->
+  <path d="M 335 235 L 430 215" stroke="#1e4d8c" stroke-width="3" marker-end="url(#arrBlue2)"/>
+  <path d="M 335 255 L 435 255" stroke="#1e4d8c" stroke-width="3" marker-end="url(#arrBlue2)"/>
+  <text x="380" y="275" font-size="9.5" fill="#1e4d8c" font-weight="bold">② 청동 충각(Ram)으로 적선 옆구리 격파</text>
+
+  <!-- Morning Wind/Swell -->
+  <path d="M 520 330 Q 420 310 360 300" stroke="#689" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="440" y="335" font-size="9" fill="#467">아침 해풍과 파도로 페르시아 대형선 조종 불능</text>
+
+  <!-- Bottom Explanatory Box -->
+  <rect x="30" y="425" width="740" height="45" rx="4" fill="#f0ebe1" stroke="#d5cdbf"/>
+  <text x="45" y="442" font-size="10" font-weight="bold" fill="#333">■ 살라미스 해전의 승리 요인 (테미스토클레스의 기지):</text>
+  <text x="45" y="458" font-size="9" fill="#555">거짓 항복 밀사로 적 함대를 좁은 수로로 유인하여 수적 우세를 무력화시키고, 아침 해풍에 휘청이는 적선들을 날렵한 삼단노선 청동 충각으로 들이받아 대승을 거둠.</text>
+</svg>

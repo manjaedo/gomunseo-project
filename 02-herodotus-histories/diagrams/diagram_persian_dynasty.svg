@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="background:#fcfbf9; font-family:'Noto Serif KR', 'Nanum Myeongjo', serif;">
+  <defs>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff" />
+      <stop offset="100%" stop-color="#f5efe6" />
+    </linearGradient>
+    <linearGradient id="kingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf8ec" />
+      <stop offset="100%" stop-color="#edd8b4" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <rect x="20" y="15" width="760" height="45" rx="5" fill="#2c221e" />
+  <text x="400" y="43" text-anchor="middle" font-size="18" font-weight="bold" fill="#e8c878" letter-spacing="2">아케메네스 페르시아 제국 주요 군주 계보도</text>
+
+  <!-- Level 1: 테이스페스 -->
+  <g transform="translate(300, 75)" filter="url(#shadow)">
+    <rect width="200" height="50" rx="6" fill="url(#boxGrad)" stroke="#8c7355" stroke-width="1.5"/>
+    <text x="100" y="24" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">테이스페스 (Teispes)</text>
+    <text x="100" y="40" text-anchor="middle" font-size="10" fill="#666">안샨의 왕 (기원전 7세기)</text>
+  </g>
+
+  <!-- Branch lines -->
+  <line x1="400" y1="125" x2="400" y2="145" stroke="#8c7355" stroke-width="2"/>
+  <line x1="220" y1="145" x2="580" y2="145" stroke="#8c7355" stroke-width="2"/>
+  <line x1="220" y1="145" x2="220" y2="165" stroke="#8c7355" stroke-width="2"/>
+  <line x1="580" y1="145" x2="580" y2="165" stroke="#8c7355" stroke-width="2"/>
+
+  <!-- Level 2 Left: 키루스 1세 계통 (직계 창건) -->
+  <g transform="translate(120, 165)" filter="url(#shadow)">
+    <rect width="200" height="45" rx="6" fill="url(#boxGrad)" stroke="#8c7355" stroke-width="1.2"/>
+    <text x="100" y="22" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">키루스 1세 (안샨의 왕)</text>
+    <text x="100" y="37" text-anchor="middle" font-size="9.5" fill="#666">캄비세스 1세의 부친</text>
+  </g>
+
+  <!-- Level 2 Right: 아리아람네스 계통 (방계 다리우스 가문) -->
+  <g transform="translate(480, 165)" filter="url(#shadow)">
+    <rect width="200" height="45" rx="6" fill="url(#boxGrad)" stroke="#8c7355" stroke-width="1.2"/>
+    <text x="100" y="22" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">아리아람네스 &amp; 아르사메스</text>
+    <text x="100" y="37" text-anchor="middle" font-size="9.5" fill="#666">히스타스페스(총독)의 부친</text>
+  </g>
+
+  <!-- Line to Cyrus Great -->
+  <line x1="220" y1="210" x2="220" y2="235" stroke="#8c7355" stroke-width="2"/>
+
+  <!-- Level 3: 키루스 2세 (대왕) -->
+  <g transform="translate(100, 235)" filter="url(#shadow)">
+    <rect width="240" height="60" rx="6" fill="url(#kingGrad)" stroke="#b8860b" stroke-width="2.5"/>
+    <text x="120" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a4b00">★ 키루스 2세 대왕 (Cyrus the Great)</text>
+    <text x="120" y="41" text-anchor="middle" font-size="10.5" fill="#333">페르시아 제국 건국자 (재위 BC 559~530)</text>
+    <text x="120" y="53" text-anchor="middle" font-size="9.5" fill="#666">메디아·리디아·바빌론 정복 (제1권)</text>
+  </g>
+
+  <!-- Lines from Cyrus Great to Sons -->
+  <line x1="220" y1="295" x2="220" y2="315" stroke="#8c7355" stroke-width="2"/>
+  <line x1="140" y1="315" x2="300" y2="315" stroke="#8c7355" stroke-width="2"/>
+  <line x1="140" y1="315" x2="140" y2="335" stroke="#8c7355" stroke-width="2"/>
+  <line x1="300" y1="315" x2="300" y2="335" stroke="#8c7355" stroke-width="2"/>
+
+  <!-- Level 4 Left: 캄비세스 2세 -->
+  <g transform="translate(40, 335)" filter="url(#shadow)">
+    <rect width="190" height="55" rx="6" fill="url(#kingGrad)" stroke="#9c7a3c" stroke-width="1.5"/>
+    <text x="95" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">캄비세스 2세 (Cambyses II)</text>
+    <text x="95" y="37" text-anchor="middle" font-size="9.5" fill="#555">이집트 정복 (재위 BC 530~522)</text>
+    <text x="95" y="49" text-anchor="middle" font-size="9" fill="#888">후사 없이 사망 (제2·3권)</text>
+  </g>
+
+  <!-- Level 4 Middle: 바르디야(스메르디스) & 가짜 스메르디스 -->
+  <g transform="translate(245, 335)" filter="url(#shadow)">
+    <rect width="180" height="55" rx="6" fill="url(#boxGrad)" stroke="#c44" stroke-dasharray="4,2" stroke-width="1.5"/>
+    <text x="90" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#8b0000">가짜 스메르디스 (찬탈자)</text>
+    <text x="90" y="35" text-anchor="middle" font-size="9" fill="#555">마고스 승려 가우마타의 난</text>
+    <text x="90" y="48" text-anchor="middle" font-size="8.5" fill="#888">다리우스 1세 등 7인에게 피살 (제3권)</text>
+  </g>
+
+  <!-- Line from right branch to Darius -->
+  <line x1="580" y1="210" x2="580" y2="245" stroke="#8c7355" stroke-width="2"/>
+  <g transform="translate(485, 245)" filter="url(#shadow)">
+    <rect width="190" height="40" rx="6" fill="url(#boxGrad)" stroke="#8c7355" stroke-width="1.2"/>
+    <text x="95" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">히스타스페스 (Hystaspes)</text>
+    <text x="95" y="33" text-anchor="middle" font-size="9" fill="#666">파르티아 총독 / 다리우스의 부친</text>
+  </g>
+  <line x1="580" y1="285" x2="580" y2="310" stroke="#8c7355" stroke-width="2"/>
+
+  <!-- Level 4 Right: 다리우스 1세 대왕 -->
+  <g transform="translate(460, 310)" filter="url(#shadow)">
+    <rect width="240" height="65" rx="6" fill="url(#kingGrad)" stroke="#b8860b" stroke-width="2.5"/>
+    <text x="120" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#7a4b00">★ 다리우스 1세 대왕 (Darius I)</text>
+    <text x="120" y="38" text-anchor="middle" font-size="10" fill="#333">20개 사트라피·왕도 정비 (재위 BC 522~486)</text>
+    <text x="120" y="50" text-anchor="middle" font-size="9.5" fill="#555">마라톤 전투 1차 그리스 침공 (제3~6권)</text>
+    <text x="120" y="61" text-anchor="middle" font-size="8.5" fill="#777">(키루스의 딸 아토사와 혼인하여 정통성 확보)</text>
+  </g>
+
+  <!-- Line to Xerxes -->
+  <line x1="580" y1="375" x2="580" y2="400" stroke="#8c7355" stroke-width="2"/>
+
+  <!-- Level 5: 크세르크세스 1세 -->
+  <g transform="translate(470, 400)" filter="url(#shadow)">
+    <rect width="220" height="60" rx="6" fill="url(#kingGrad)" stroke="#b8860b" stroke-width="2"/>
+    <text x="110" y="22" text-anchor="middle" font-size="13" font-weight="bold" fill="#7a4b00">크세르크세스 1세 (Xerxes I)</text>
+    <text x="110" y="38" text-anchor="middle" font-size="10" fill="#333">대원정군 지휘 (재위 BC 486~465)</text>
+    <text x="110" y="51" text-anchor="middle" font-size="9" fill="#555">테르모필레·살라미스·플라타이아이 (제7~9권)</text>
+  </g>
+
+  <!-- Legend bottom left -->
+  <g transform="translate(40, 415)">
+    <rect width="385" height="45" rx="4" fill="#eee8dc" stroke="#ccc"/>
+    <text x="10" y="18" font-size="9.5" font-weight="bold" fill="#444">■ 범례 및 안내:</text>
+    <text x="10" y="34" font-size="8.5" fill="#666">황금색 상자는 페르시아 제국의 주요 황제(샤한샤)를 뜻하며, 점선 상자는 반역 찬탈자를 뜻함.</text>
+  </g>
+</svg>

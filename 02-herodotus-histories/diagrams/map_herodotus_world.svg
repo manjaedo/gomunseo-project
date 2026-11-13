@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="background:#fcfbf9; font-family:'Noto Serif KR', 'Nanum Myeongjo', serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Title -->
+  <rect x="20" y="15" width="760" height="42" rx="4" fill="#1b2a4a" />
+  <text x="400" y="42" text-anchor="middle" font-size="16" font-weight="bold" fill="#f4d06f" letter-spacing="2">헤로도토스의 고대 세계관 지도 및 페르시아 제국의 왕도(Royal Road)</text>
+
+  <!-- Ocean encircling the world -->
+  <rect x="30" y="70" width="740" height="345" rx="10" fill="#e3edf7" stroke="#b0c8df" stroke-width="1.5"/>
+  <text x="70" y="100" font-size="11" font-style="italic" fill="#5882a8">대양 (오케아노스 - Oceanus)</text>
+  <text x="680" y="390" font-size="11" font-style="italic" fill="#5882a8">대양 (외해)</text>
+
+  <!-- Continents shapes (Stylized ancient geography) -->
+  <!-- Europe (North) -->
+  <path d="M 70 120 Q 250 110 500 130 Q 650 120 720 160 L 650 210 Q 400 190 200 200 L 70 180 Z" fill="#eae2d1" stroke="#b8ab95"/>
+  <text x="320" y="150" font-size="15" font-weight="bold" fill="#5c4e38">유 럽 (EUROPE)</text>
+  <text x="180" y="170" font-size="9" fill="#7a6c56">이스트로스 강 (도나우 강)</text>
+
+  <!-- Mediterranean & Black Sea -->
+  <!-- Black Sea (Euxine) -->
+  <ellipse cx="360" cy="205" rx="60" ry="22" fill="#c2daf0" stroke="#7ea7cf"/>
+  <text x="360" y="209" text-anchor="middle" font-size="9" font-weight="bold" fill="#2b5c8f">에욱세이노스 해 (흑해)</text>
+
+  <!-- Mediterranean (Internal Sea) -->
+  <path d="M 120 220 Q 260 215 350 240 Q 260 260 120 245 Z" fill="#c2daf0" stroke="#7ea7cf"/>
+  <text x="210" y="242" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#2b5c8f">지중해 (우리의 바다)</text>
+
+  <!-- Caspian Sea (Herodotus knew it was an isolated lake!) -->
+  <ellipse cx="490" cy="210" rx="30" ry="45" fill="#c2daf0" stroke="#7ea7cf"/>
+  <text x="490" y="214" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#2b5c8f">카스피 해<br/>(내해)</text>
+
+  <!-- Asia & Persian Empire (Center/East) -->
+  <path d="M 330 230 Q 520 200 730 210 L 730 360 Q 560 380 340 330 Z" fill="#fdf4e2" stroke="#d5c19e" stroke-width="2"/>
+  <text x="560" y="270" font-size="17" font-weight="bold" fill="#8c581b">아 시 아 (ASIA)</text>
+  <text x="560" y="295" font-size="12" font-weight="bold" fill="#b8860b">아케메네스 페르시아 대제국 판도</text>
+
+  <!-- Libya / Africa (South) -->
+  <path d="M 100 255 Q 320 250 340 330 L 320 380 Q 200 390 100 340 Z" fill="#f0e9dc" stroke="#b8ab95"/>
+  <text x="210" y="320" font-size="14" font-weight="bold" fill="#5c4e38">리 비 아 (아프리카)</text>
+  <text x="280" y="280" font-size="9.5" font-weight="bold" fill="#2b5c8f">이집트 &amp; 나일 강</text>
+
+  <!-- The Royal Road (Susa to Sardis) -->
+  <!-- Sardis -->
+  <circle cx="320" cy="225" r="5" fill="#b22222"/>
+  <text x="315" y="218" text-anchor="end" font-size="9" font-weight="bold" fill="#b22222">사르디스 (소아시아)</text>
+
+  <!-- Susa -->
+  <circle cx="510" cy="300" r="5" fill="#b22222"/>
+  <text x="520" y="305" font-size="9" font-weight="bold" fill="#b22222">수사 (페르시아 수도)</text>
+
+  <!-- Royal Road line -->
+  <path d="M 320 225 Q 400 240 450 255 Q 490 270 510 300" fill="none" stroke="#d9534f" stroke-width="3" stroke-dasharray="5,3"/>
+  <text x="415" y="240" font-size="9.5" font-weight="bold" fill="#a00" transform="rotate(18, 415, 240)">★ 왕의 길 (Royal Road - 2,700km, 111개 역참)</text>
+
+  <!-- Greece and Persia Battle Sites -->
+  <circle cx="275" cy="225" r="4" fill="#1e4d8c"/>
+  <text x="260" y="215" font-size="8.5" font-weight="bold" fill="#1e4d8c">아테네·스파르타</text>
+
+  <circle cx="430" cy="285" r="4" fill="#7a4b00"/>
+  <text x="430" y="300" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#7a4b00">바빌론</text>
+
+  <!-- Bottom Explanatory Box -->
+  <rect x="30" y="425" width="740" height="45" rx="4" fill="#f0ebe1" stroke="#d5cdbf"/>
+  <text x="45" y="442" font-size="10" font-weight="bold" fill="#333">■ 헤로도토스의 지리학적 통찰과 페르시아 제국:</text>
+  <text x="45" y="458" font-size="9" fill="#555">헤로도토스는 카스피해가 다른 바다와 이어지지 않은 독자적 내해임을 인류 최초로 정확히 지적하였으며, 수사에서 사르디스까지 3개월 걸리던 2,700km의 길을 역참 파발마로 7일 만에 주파하던 페르시아의 '왕도'를 생생하게 기록함.</text>
+</svg>

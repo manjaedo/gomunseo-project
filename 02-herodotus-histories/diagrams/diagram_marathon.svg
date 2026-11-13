@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="background:#fcfbf9; font-family:'Noto Serif KR', 'Nanum Myeongjo', serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b22222" />
+    </marker>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e4d8c" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <rect x="20" y="15" width="760" height="42" rx="4" fill="#1b2a4a" />
+  <text x="400" y="42" text-anchor="middle" font-size="16" font-weight="bold" fill="#f4d06f" letter-spacing="2">마라톤 전투 (BC 490) 밀티아데스의 양익 포위 섬멸 전술도</text>
+
+  <!-- Background Terrain -->
+  <!-- Sea / Bay of Marathon -->
+  <path d="M 580 80 Q 640 250 770 430 L 780 430 L 780 80 Z" fill="#dceaf7" opacity="0.6"/>
+  <text x="700" y="180" font-size="12" fill="#3a6ea5" font-weight="bold" transform="rotate(65, 700, 180)">마라톤 만 (바다 &amp; 페르시아 함선 정박지)</text>
+
+  <!-- Greek camp hills -->
+  <path d="M 30 100 Q 90 250 40 430 L 20 430 L 20 100 Z" fill="#e2dcd2" opacity="0.6"/>
+  <text x="50" y="270" font-size="11" fill="#665" font-weight="bold" transform="rotate(-75, 50, 270)">브라나 구릉지 (그리스군 진영)</text>
+
+  <!-- Marshland -->
+  <rect x="620" y="90" width="130" height="60" rx="8" fill="#d0ded0" opacity="0.7"/>
+  <text x="685" y="125" text-anchor="middle" font-size="10.5" fill="#386b38">거대한 늪지대 (습지)</text>
+
+  <!-- GREEK FORMATION (Blue) -->
+  <!-- Left Wing (Thick - 8 ranks) -->
+  <rect x="180" y="130" width="60" height="70" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+  <text x="210" y="170" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">플라타이아이군<br/>(두터운 8열)</text>
+
+  <!-- Center (Thin - 4 ranks) -->
+  <rect x="210" y="210" width="30" height="90" rx="3" fill="#467bb8" filter="url(#shadow)"/>
+  <text x="225" y="255" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#fff">아테네 중앙<br/>(얇은 4열)</text>
+
+  <!-- Right Wing (Thick - 8 ranks) -->
+  <rect x="180" y="310" width="60" height="70" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+  <text x="210" y="350" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">아테네 우익<br/>(두터운 8열)</text>
+
+  <text x="140" y="260" font-size="13" font-weight="bold" fill="#1e4d8c">그리스 중장보병<br/>(밀티아데스 지휘)<br/>약 10,000명</text>
+
+  <!-- PERSIAN FORMATION (Red) -->
+  <!-- Persian Right Wing -->
+  <rect x="440" y="140" width="50" height="60" rx="3" fill="#d9534f" filter="url(#shadow)"/>
+  <text x="465" y="175" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#fff">페르시아 우익</text>
+
+  <!-- Persian Center (Strong Elite Immortals/Sacae) -->
+  <rect x="430" y="210" width="70" height="90" rx="3" fill="#b22222" filter="url(#shadow)"/>
+  <text x="465" y="255" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">페르시아 정예<br/>(사카인/불사부대)</text>
+
+  <!-- Persian Left Wing -->
+  <rect x="440" y="310" width="50" height="60" rx="3" fill="#d9534f" filter="url(#shadow)"/>
+  <text x="465" y="345" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#fff">페르시아 좌익</text>
+
+  <text x="530" y="260" font-size="13" font-weight="bold" fill="#b22222">페르시아 육군<br/>(다티스·아르타프레네스)<br/>약 25,000명</text>
+
+  <!-- TACTICAL MOVEMENTS -->
+  <!-- Phase 1: Greek Rapid Charge (1 mile) -->
+  <path d="M 250 255 L 410 255" stroke="#1e4d8c" stroke-width="2.5" stroke-dasharray="6,4" marker-end="url(#arrowBlue)"/>
+  <text x="330" y="245" text-anchor="middle" font-size="9.5" fill="#1e4d8c" font-weight="bold">① 1마일(1.5km) 전력 질주 돌격</text>
+
+  <!-- Phase 2: Persian center pushes Greek thin center back -->
+  <path d="M 420 270 Q 320 285 260 275" stroke="#b22222" stroke-width="2" stroke-dasharray="4,3" marker-end="url(#arrowRed)"/>
+  <text x="335" y="300" text-anchor="middle" font-size="9" fill="#b22222">② 페르시아 정예가 얇은 아테네 중앙을 밀어냄</text>
+
+  <!-- Phase 3: Greek wings rout Persian wings, then pincer inward! -->
+  <path d="M 250 145 C 380 110, 480 120, 470 195" stroke="#1e4d8c" stroke-width="3" marker-end="url(#arrowBlue)" fill="none"/>
+  <text x="350" y="115" text-anchor="middle" font-size="9.5" fill="#1e4d8c" font-weight="bold">③ 아테네 좌익이 적을 격파하고 안쪽으로 회전</text>
+
+  <path d="M 250 365 C 380 400, 480 390, 470 315" stroke="#1e4d8c" stroke-width="3" marker-end="url(#arrowBlue)" fill="none"/>
+  <text x="350" y="415" text-anchor="middle" font-size="9.5" fill="#1e4d8c" font-weight="bold">③ 아테네 우익이 적을 격파하고 포위망 완성</text>
+
+  <!-- Phase 4: Persian retreat into sea/marsh -->
+  <path d="M 500 240 L 600 210" stroke="#b22222" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="560" y="195" font-size="9" fill="#b22222">④ 늪과 바다로 패주 (6,400명 전사)</text>
+
+  <!-- Bottom Explanatory Box -->
+  <rect x="30" y="420" width="740" height="45" rx="4" fill="#f0ebe1" stroke="#d5cdbf"/>
+  <text x="45" y="437" font-size="10" font-weight="bold" fill="#333">■ 전술의 핵심 요약 (밀티아데스의 천재성):</text>
+  <text x="45" y="453" font-size="9" fill="#555">중앙을 의도적으로 얇게(4열) 하여 적 주력을 유인하는 동안, 강화된 양익(8열)이 적 양익을 격파하고 배후를 포위하는 '망치와 모루' 형태의 포위 섬멸전.</text>
+</svg>

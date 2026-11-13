@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="background:#fcfbf9; font-family:'Noto Serif KR', 'Nanum Myeongjo', serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrRed3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b22222" />
+    </marker>
+    <marker id="arrBlue3" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e4d8c" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <rect x="20" y="15" width="760" height="42" rx="4" fill="#1b2a4a" />
+  <text x="400" y="42" text-anchor="middle" font-size="16" font-weight="bold" fill="#f4d06f" letter-spacing="2">플라타이아이 전투 (BC 479) 파우사니아스의 스파르타 방진 총공격도</text>
+
+  <!-- River Asopos (North) -->
+  <path d="M 20 100 Q 400 120 780 90 L 780 130 Q 400 160 20 140 Z" fill="#dceaf7"/>
+  <text x="400" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#2b5c8f">아소포스 강 (Asopos River)</text>
+
+  <!-- Persian Fortified Camp (North of river) -->
+  <rect x="250" y="65" width="300" height="30" rx="3" fill="#8b0000" stroke="#500"/>
+  <text x="400" y="85" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">페르시아 목조 방벽 요새 진영 (마르도니우스 대군)</text>
+
+  <!-- Plains of Plataea (Middle) -->
+  <text x="700" y="240" font-size="11" font-weight="bold" fill="#887c6b">플라타이아이 평원</text>
+
+  <!-- Gargaphia Spring -->
+  <circle cx="550" cy="270" r="14" fill="#a4c8e1" stroke="#2b5c8f" stroke-width="2"/>
+  <text x="550" y="274" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#1a3b5c">가르가피아<br/>샘터</text>
+  <text x="550" y="300" text-anchor="middle" font-size="8.5" fill="#555">(페르시아 기병이 매몰시킴)</text>
+
+  <!-- Kithairon Foothills (South) -->
+  <path d="M 20 380 Q 400 350 780 370 L 780 430 L 20 430 Z" fill="#d9d0c1"/>
+  <text x="400" y="415" text-anchor="middle" font-size="13" font-weight="bold" fill="#5c5243">키타이론 산맥 기슭 (Kithairon Foothills)</text>
+
+  <!-- PERSIAN BATTLE FORMATION (Red - South of River) -->
+  <!-- Boeotian allies (fighting Athenians) -->
+  <rect x="180" y="180" width="80" height="35" rx="3" fill="#d9534f" filter="url(#shadow)"/>
+  <text x="220" y="202" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">보이오티아 친페르시아군</text>
+
+  <!-- Persian Elite under Mardonius (fighting Spartans) -->
+  <rect x="480" y="180" width="110" height="40" rx="3" fill="#b22222" filter="url(#shadow)"/>
+  <text x="535" y="205" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#fff">마르도니우스 직할 정예대<br/>(백마 탄 마르도니우스)</text>
+
+  <!-- GREEK BATTLE FORMATION (Blue) -->
+  <!-- Left Wing: Athenians under Aristides -->
+  <rect x="180" y="290" width="85" height="40" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+  <text x="222" y="315" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#fff">아테네군<br/>(아리스티데스)</text>
+
+  <!-- Center: Greek Allies -->
+  <rect x="330" y="320" width="80" height="30" rx="3" fill="#467bb8" filter="url(#shadow)"/>
+  <text x="370" y="340" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#fff">동맹군 (코린토스 등)</text>
+
+  <!-- Right Wing: Spartans & Tegeans under Pausanias -->
+  <rect x="480" y="300" width="115" height="45" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+  <text x="537" y="322" text-anchor="middle" font-size="11" font-weight="bold" fill="#fff">스파르타·테게아 호플리테스<br/>(파우사니아스 총사령관)</text>
+
+  <!-- TACTICAL MOVEMENTS -->
+  <!-- Persian Charge -->
+  <path d="M 535 225 L 535 290" stroke="#b22222" stroke-width="2.5" marker-end="url(#arrRed3)"/>
+  <text x="580" y="255" font-size="9" fill="#b22222" font-weight="bold">① 페르시아군 맹공</text>
+
+  <!-- Spartan Omen Waiting then Phalanx Charge -->
+  <path d="M 537 295 L 537 230" stroke="#1e4d8c" stroke-width="3.5" marker-end="url(#arrBlue3)"/>
+  <text x="440" y="270" font-size="9.5" fill="#1e4d8c" font-weight="bold">② 희생제 길조 확인 후<br/>스파르타 방진 총반격!</text>
+
+  <!-- Death of Mardonius -->
+  <circle cx="535" cy="210" r="12" fill="#ff4d4d" stroke="#b22222" stroke-width="2"/>
+  <text x="535" y="214" text-anchor="middle" font-size="8" font-weight="bold" fill="#fff">전사</text>
+  <text x="610" y="215" font-size="9" font-weight="bold" fill="#8b0000">★ 마르도니우스 전사 (아림네스토스가 던진 돌에 맞음)</text>
+
+  <!-- Bottom Explanatory Box -->
+  <rect x="30" y="425" width="740" height="45" rx="4" fill="#f0ebe1" stroke="#d5cdbf"/>
+  <text x="45" y="442" font-size="10" font-weight="bold" fill="#333">■ 플라타이아이 전투의 결정적 승리:</text>
+  <text x="45" y="458" font-size="9" fill="#555">스파르타 중장보병(호플리테스)의 압도적인 백병전 무력으로 페르시아 총사령관 마르도니우스를 전사시키고 목조 요새를 함락시킴으로써 그리스 본토에서 페르시아 지상군을 완전 섬멸함.</text>
+</svg>

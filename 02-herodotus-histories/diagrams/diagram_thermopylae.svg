@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="auto" style="background:#fcfbf9; font-family:'Noto Serif KR', 'Nanum Myeongjo', serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b22222" />
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1e4d8c" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <rect x="20" y="15" width="760" height="42" rx="4" fill="#2c221e" />
+  <text x="400" y="42" text-anchor="middle" font-size="16" font-weight="bold" fill="#e8c878" letter-spacing="2">테르모필레 전투 (BC 480) 협곡 방어선 및 아노파이아 우회로 전술도</text>
+
+  <!-- Sea: Malian Gulf -->
+  <path d="M 20 70 L 780 70 L 780 170 Q 500 150 20 180 Z" fill="#dceaf7" opacity="0.7"/>
+  <text x="400" y="120" text-anchor="middle" font-size="13" font-weight="bold" fill="#2b5c8f">말리아 만 (Malian Gulf - 바다)</text>
+
+  <!-- Pass Road (Narrow Thermopylae Pass) -->
+  <path d="M 20 200 L 780 200 L 780 250 L 20 250 Z" fill="#eae3d5"/>
+  <text x="120" y="230" font-size="11" font-weight="bold" fill="#776c5b">← 페르시아 진영 (트라키스 평원)</text>
+  <text x="660" y="230" font-size="11" font-weight="bold" fill="#776c5b">그리스 본토 방향 (아테네) →</text>
+
+  <!-- Steep Cliffs / Mount Kallidromo -->
+  <path d="M 20 260 L 780 260 L 780 430 L 20 430 Z" fill="#d8cfbe" opacity="0.8"/>
+  <text x="250" y="320" font-size="13" font-weight="bold" fill="#5c5243">칼리드로모스 산맥 (가파른 바위 절벽)</text>
+
+  <!-- The Middle Gate (Phocian Wall) -->
+  <rect x="420" y="195" width="14" height="60" fill="#4a4035" stroke="#222" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="427" y="185" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#8b0000">포키스 성벽 (Phocian Wall)</text>
+
+  <!-- Spartan & Greek Defense (Blue) -->
+  <rect x="440" y="205" width="45" height="40" rx="3" fill="#1e4d8c" filter="url(#shadow)"/>
+  <text x="462" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">스파르타<br/>300 결사대</text>
+  <text x="462" y="270" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#1e4d8c">레오니다스 왕 지휘<br/>(그리스 연합군 약 7,000명)</text>
+
+  <!-- Persian Assault (Red) -->
+  <rect x="250" y="205" width="80" height="40" rx="3" fill="#b22222" filter="url(#shadow)"/>
+  <text x="290" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#fff">페르시아 정면 돌격<br/>(메디아군·불사부대)</text>
+  <path d="M 335 225 L 410 225" stroke="#b22222" stroke-width="3" marker-end="url(#arrRed)"/>
+  <text x="370" y="215" text-anchor="middle" font-size="9" fill="#b22222" font-weight="bold">정면 돌격 실패 (이틀간 격퇴)</text>
+
+  <!-- Anopaea Secret Mountain Path (Mountain Trail) -->
+  <path d="M 120 280 C 180 390, 480 410, 680 370 L 680 255" fill="none" stroke="#d9534f" stroke-width="3" stroke-dasharray="6,4" marker-end="url(#arrRed)"/>
+  <text x="400" y="380" text-anchor="middle" font-size="11" font-weight="bold" fill="#b22222">★ 아노파이아 샛길 (Anopaea Path - 배신자 에피알테스의 산길 안내)</text>
+  <text x="560" y="325" font-size="9.5" fill="#8b0000">히다르네스의 불사부대 1만 명이 야간 행군으로 배후 차단</text>
+
+  <!-- Rear Attack Arrow -->
+  <path d="M 680 255 L 500 230" stroke="#b22222" stroke-width="3" marker-end="url(#arrRed)"/>
+  <text x="590" y="220" text-anchor="middle" font-size="9" fill="#b22222" font-weight="bold">③ 배후 포위 협공</text>
+
+  <!-- Last Stand Hill (Kolonos Hill) -->
+  <circle cx="510" cy="225" r="16" fill="#f4d06f" stroke="#b8860b" stroke-width="2"/>
+  <text x="510" y="229" text-anchor="middle" font-size="9" font-weight="bold" fill="#333">최후<br/>언덕</text>
+
+  <!-- Bottom Explanatory Box -->
+  <rect x="30" y="425" width="740" height="45" rx="4" fill="#f0ebe1" stroke="#d5cdbf"/>
+  <text x="45" y="442" font-size="10" font-weight="bold" fill="#333">■ 테르모필레의 비극과 불멸의 영광:</text>
+  <text x="45" y="458" font-size="9" fill="#555">폭 15m의 좁은 병목 지형으로 수십만 대군을 무력화했으나, 현지인 에피알테스의 배신으로 샛길을 찔려 레오니다스 왕과 300 스파르타 전사 및 테스피아이군이 전원 장렬히 옥쇄함.</text>
+</svg>
