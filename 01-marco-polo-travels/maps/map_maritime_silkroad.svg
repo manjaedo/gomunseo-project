@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" width="100%" height="auto" style="background:#eaf2f8; font-family:'Pretendard', 'Noto Sans KR', sans-serif;">
+  <defs>
+    <filter id="seaShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="650" fill="#d9ebf5"/>
+
+  <!-- Asian / Indian Ocean Coastlines (Stylized) -->
+  <path d="M 50 150 L 220 180 Q 280 250 350 280 L 480 320 Q 520 400 550 480 Q 580 400 650 330 Q 720 280 820 280 L 980 180 L 1050 120 L 1050 500 Q 950 540 850 620 L 50 620 Z" fill="#faf6ed" stroke="#cbb89d" stroke-width="2"/>
+  
+  <!-- Title -->
+  <g transform="translate(50, 40)">
+    <rect width="480" height="70" rx="6" fill="#ffffff" opacity="0.95" stroke="#1e5f8a" stroke-width="2"/>
+    <text x="20" y="30" font-size="19" font-weight="bold" fill="#1e5f8a">마르코 폴로의 인도양 해상 귀환 대항해로</text>
+    <text x="20" y="52" font-size="12" fill="#555">자이톤(천주) 출항 → 남지나해 → 참파 → 수마트라 → 인도 → 호르무즈 (1292–1294)</text>
+  </g>
+
+  <!-- Sea Voyage Route -->
+  <path d="M 980 160 Q 920 280 850 370 Q 780 470 760 520 Q 700 480 600 460 Q 530 400 480 330 L 320 250 L 180 220" 
+        fill="none" stroke="#00558f" stroke-width="4" stroke-dasharray="7,4"/>
+
+  <!-- Points of Call -->
+  <!-- Quanzhou / Zayton -->
+  <circle cx="980" cy="160" r="7" fill="#b22222" stroke="#fff" stroke-width="2"/>
+  <text x="910" y="150" font-size="13" font-weight="bold" fill="#b22222">자이톤 (천주 / 출항지)</text>
+  <text x="910" y="166" font-size="10" fill="#444">14척 대형선단, 600명 승선</text>
+
+  <!-- Champa -->
+  <circle cx="850" cy="370" r="5" fill="#00558f" stroke="#fff" stroke-width="2"/>
+  <text x="865" y="375" font-size="12" font-weight="bold" fill="#00558f">참파 (베트남 / 침향과 코끼리)</text>
+
+  <!-- Java -->
+  <circle cx="880" cy="560" r="6" fill="#00558f" stroke="#fff" stroke-width="2"/>
+  <text x="895" y="565" font-size="12" font-weight="bold" fill="#00558f">대자바 (자바섬 / 정향, 육두구, 후추)</text>
+
+  <!-- Sumatra / Java Minor -->
+  <circle cx="760" cy="520" r="7" fill="#d9534f" stroke="#fff" stroke-width="2"/>
+  <text x="640" y="540" font-size="13" font-weight="bold" fill="#d9534f">소자바 (수마트라섬 / 8개 왕국)</text>
+  <text x="660" y="556" font-size="10" fill="#333">몬순 계절풍 대기로 5개월간 목책 요새 주둔</text>
+
+  <!-- Andaman & Nicobar -->
+  <circle cx="680" cy="430" r="4" fill="#666"/>
+  <text x="690" y="430" font-size="10" fill="#555">앙가마니안 (안다만 제도)</text>
+
+  <!-- Ceylon -->
+  <circle cx="600" cy="460" r="6" fill="#00558f" stroke="#fff" stroke-width="2"/>
+  <text x="540" y="490" font-size="12" font-weight="bold" fill="#00558f">세이란 (세일론 / 스리랑카)</text>
+  <text x="540" y="506" font-size="10" fill="#555">루비, 사파이어, 아담의 영봉</text>
+
+  <!-- Coromandel / Pearl Fishery -->
+  <circle cx="560" cy="420" r="5" fill="#00558f" stroke="#fff" stroke-width="1.5"/>
+  <text x="450" y="420" font-size="11" font-weight="bold" fill="#333">마아바르 (코로만델 / 진주 채취)</text>
+
+  <!-- Malabar / Gujarat -->
+  <circle cx="480" cy="330" r="5" fill="#00558f" stroke="#fff" stroke-width="1.5"/>
+  <text x="400" y="325" font-size="11" font-weight="bold" fill="#333">말라바르 및 구자라트</text>
+
+  <!-- Hormuz -->
+  <circle cx="180" cy="220" r="7" fill="#b22222" stroke="#fff" stroke-width="2"/>
+  <text x="120" y="210" font-size="14" font-weight="bold" fill="#b22222">호르무즈 (도착지)</text>
+  <text x="110" y="228" font-size="10" fill="#444">코카친 공주를 가잔 칸에게 무사 인계</text>
+</svg>

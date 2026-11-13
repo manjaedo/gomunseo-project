@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="auto" style="background:#fcf9f2; font-family:'Pretendard', 'Noto Sans KR', sans-serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="landGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f5ede0"/>
+    </linearGradient>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e9f3f8"/>
+      <stop offset="100%" stop-color="#d6e8f2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background / Ocean -->
+  <rect width="1200" height="700" fill="url(#oceanGrad)" />
+
+  <!-- Eurasian Landmass Outline (Stylized Historical Geometry) -->
+  <path d="M 50 120 Q 250 80 450 100 T 800 120 Q 1050 100 1150 160 L 1150 520 Q 1050 560 950 500 Q 850 480 800 580 Q 750 620 700 500 Q 600 550 520 450 Q 420 500 350 420 Q 280 430 200 480 Q 120 460 80 380 Q 50 300 80 200 Z" fill="url(#landGrad)" stroke="#cbb89d" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Mediterranean & Black Sea cutout styling -->
+  <path d="M 120 280 Q 220 260 280 300 Q 240 340 180 340 Z" fill="#e2edf5" stroke="#b0c8d8" stroke-width="1.5"/>
+  <path d="M 270 230 Q 340 210 380 240 Q 340 270 280 250 Z" fill="#e2edf5" stroke="#b0c8d8" stroke-width="1.5"/>
+  <path d="M 400 360 Q 450 420 480 470 Q 440 450 390 400 Z" fill="#e2edf5" stroke="#b0c8d8" stroke-width="1.5"/>
+  
+  <!-- Title Box -->
+  <g transform="translate(60, 40)">
+    <rect width="440" height="70" rx="8" fill="#ffffff" opacity="0.92" stroke="#8b2500" stroke-width="2" filter="url(#shadow)"/>
+    <text x="20" y="30" font-size="20" font-weight="bold" fill="#8b2500">마르코 폴로의 동방원정 및 귀환 총도</text>
+    <text x="20" y="52" font-size="12" fill="#555555">The Great Eurasian Itinerary of Marco Polo (1271–1295)</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(60, 580)">
+    <rect width="320" height="90" rx="6" fill="#ffffff" opacity="0.92" stroke="#999999" stroke-width="1" filter="url(#shadow)"/>
+    <line x1="20" y1="28" x2="60" y2="28" stroke="#b22222" stroke-width="3.5" stroke-dasharray="none"/>
+    <circle cx="40" cy="28" r="4" fill="#b22222"/>
+    <text x="75" y="33" font-size="13" font-weight="bold" fill="#333333">육로 출도 (1271–1275년 베네치아 → 대도)</text>
+    
+    <line x1="20" y1="60" x2="60" y2="60" stroke="#1e5f8a" stroke-width="3" stroke-dasharray="6,4"/>
+    <polygon points="45,57 52,60 45,63" fill="#1e5f8a"/>
+    <text x="75" y="65" font-size="13" font-weight="bold" fill="#333333">해로 귀환도 (1292–1295년 천주 → 베네치아)</text>
+  </g>
+
+  <!-- Overland Route (Red Line) -->
+  <!-- Venice(140, 240) -> Acre(290, 310) -> Tabriz(410, 270) -> Hormuz(480, 390) -> Balkh/Badakhshan(590, 280) -> Kashgar(680, 260) -> Dunhuang(800, 260) -> Shangdu(980, 210) -> Dadu/Khanbaliq(1010, 240) -->
+  <path d="M 140 240 L 290 310 L 410 270 L 480 390 L 590 280 L 680 260 L 800 260 L 980 210 L 1010 240" 
+        fill="none" stroke="#b22222" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Sea Route (Blue Dashed Line) -->
+  <!-- Dadu(1010, 240) -> Hangzhou(1030, 320) -> Quanzhou/Zayton(1020, 370) -> Champa(950, 460) -> Singapore/Malacca(900, 530) -> Sumatra(880, 560) -> Ceylon(740, 530) -> Malabar/India(690, 470) -> Hormuz(480, 390) -> Trebizond(360, 230) -> Constantinople(260, 230) -> Venice(140, 240) -->
+  <path d="M 1010 240 L 1030 320 L 1020 370 Q 980 430 950 460 Q 920 500 900 530 L 880 560 Q 800 540 740 530 Q 700 500 690 470 Q 560 420 480 390 L 360 230 L 260 230 L 140 240" 
+        fill="none" stroke="#1e5f8a" stroke-width="3" stroke-dasharray="6,4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Key Route Nodes -->
+  <!-- Venice -->
+  <circle cx="140" cy="240" r="6" fill="#8b2500" stroke="#fff" stroke-width="2"/>
+  <text x="90" y="235" font-size="13" font-weight="bold" fill="#8b2500">베네치아 (출발/귀환)</text>
+
+  <!-- Constantinople -->
+  <circle cx="260" cy="230" r="5" fill="#333" stroke="#fff" stroke-width="1.5"/>
+  <text x="210" y="215" font-size="11" fill="#333">콘스탄티노플</text>
+
+  <!-- Acre -->
+  <circle cx="290" cy="310" r="5" fill="#b22222" stroke="#fff" stroke-width="1.5"/>
+  <text x="250" y="330" font-size="11" font-weight="bold" fill="#b22222">아코 (성유 인수)</text>
+
+  <!-- Trebizond -->
+  <circle cx="360" cy="230" r="4" fill="#1e5f8a" stroke="#fff" stroke-width="1.5"/>
+  <text x="340" y="215" font-size="11" fill="#1e5f8a">트레비존드</text>
+
+  <!-- Tabriz -->
+  <circle cx="410" cy="270" r="5" fill="#b22222" stroke="#fff" stroke-width="1.5"/>
+  <text x="380" y="260" font-size="11" font-weight="bold" fill="#444">타브리즈 (일 칸국)</text>
+
+  <!-- Hormuz -->
+  <circle cx="480" cy="390" r="6" fill="#8b2500" stroke="#fff" stroke-width="2"/>
+  <text x="495" y="395" font-size="12" font-weight="bold" fill="#8b2500">호르무즈 (해상 교차점)</text>
+
+  <!-- Badakhshan / Pamir -->
+  <circle cx="590" cy="280" r="5" fill="#b22222" stroke="#fff" stroke-width="1.5"/>
+  <text x="540" y="270" font-size="11" fill="#444">바다흐샨 / 파미르</text>
+
+  <!-- Kashgar -->
+  <circle cx="680" cy="260" r="5" fill="#b22222" stroke="#fff" stroke-width="1.5"/>
+  <text x="655" y="245" font-size="11" fill="#444">카슈가르</text>
+
+  <!-- Dunhuang -->
+  <circle cx="800" cy="260" r="5" fill="#b22222" stroke="#fff" stroke-width="1.5"/>
+  <text x="780" y="245" font-size="11" fill="#444">돈황 (사주)</text>
+
+  <!-- Shangdu -->
+  <circle cx="980" cy="210" r="6" fill="#8b2500" stroke="#fff" stroke-width="2"/>
+  <text x="940" y="195" font-size="12" font-weight="bold" fill="#8b2500">상도 (자나두/여름수도)</text>
+
+  <!-- Khanbaliq / Dadu -->
+  <circle cx="1010" cy="240" r="7" fill="#b22222" stroke="#fff" stroke-width="2"/>
+  <text x="1025" y="245" font-size="14" font-weight="bold" fill="#b22222">대도 (칸발리크/북경)</text>
+
+  <!-- Kinsay / Hangzhou -->
+  <circle cx="1030" cy="320" r="5" fill="#1e5f8a" stroke="#fff" stroke-width="1.5"/>
+  <text x="1045" y="325" font-size="12" font-weight="bold" fill="#1e5f8a">행재 (킨사이/항저우)</text>
+
+  <!-- Quanzhou / Zayton -->
+  <circle cx="1020" cy="370" r="6" fill="#1e5f8a" stroke="#fff" stroke-width="2"/>
+  <text x="1035" y="375" font-size="12" font-weight="bold" fill="#1e5f8a">자이톤 (천주/출항지)</text>
+
+  <!-- Champa -->
+  <circle cx="950" cy="460" r="4" fill="#1e5f8a" stroke="#fff" stroke-width="1.5"/>
+  <text x="965" y="465" font-size="11" fill="#333">참파 (베트남 남부)</text>
+
+  <!-- Sumatra -->
+  <circle cx="880" cy="560" r="5" fill="#1e5f8a" stroke="#fff" stroke-width="1.5"/>
+  <text x="895" y="575" font-size="11" font-weight="bold" fill="#1e5f8a">수마트라 (소자바/5개월 체류)</text>
+
+  <!-- Ceylon -->
+  <circle cx="740" cy="530" r="5" fill="#1e5f8a" stroke="#fff" stroke-width="1.5"/>
+  <text x="690" y="550" font-size="11" font-weight="bold" fill="#1e5f8a">세일론 (보석의 섬)</text>
+
+  <!-- Malabar / India -->
+  <circle cx="690" cy="470" r="5" fill="#1e5f8a" stroke="#fff" stroke-width="1.5"/>
+  <text x="615" y="475" font-size="11" fill="#333">말라바르 (인도 서안)</text>
+
+  <!-- Compass Rose -->
+  <g transform="translate(1100, 90)">
+    <circle cx="0" cy="0" r="30" fill="#ffffff" opacity="0.8" stroke="#8b2500" stroke-width="1.5"/>
+    <polygon points="0,-25 6,-6 25,0 6,6 0,25 -6,6 -25,0 -6,-6" fill="#8b2500"/>
+    <polygon points="0,-25 -6,-6 0,0" fill="#d9534f"/>
+    <text x="-4" y="-28" font-size="10" font-weight="bold" fill="#8b2500">N</text>
+  </g>
+</svg>

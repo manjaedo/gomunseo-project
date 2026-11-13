@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 750" width="100%" height="auto" style="background:#f9f6ee; font-family:'Pretendard', 'Noto Sans KR', sans-serif;">
+  <defs>
+    <filter id="cityShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="3" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background Border -->
+  <rect width="900" height="750" fill="#fbf8f0" stroke="#d5c7b0" stroke-width="2"/>
+
+  <!-- Title Header -->
+  <g transform="translate(50, 40)">
+    <text x="0" y="0" font-size="22" font-weight="bold" fill="#8b2500">쿠빌라이 칸의 대도(칸발리크/북경) 도성 배치도</text>
+    <text x="0" y="24" font-size="13" fill="#666">마르코 폴로가 상세히 기록한 12개 성문과 삼중 성곽, 황궁 및 청산(경산)</text>
+  </g>
+
+  <!-- Outer City (Tartar City) -->
+  <rect x="120" y="100" width="660" height="580" fill="#f4ebd9" stroke="#8b4513" stroke-width="4" filter="url(#cityShadow)"/>
+  <text x="140" y="130" font-size="15" font-weight="bold" fill="#8b4513">외성 (대도성 / 1변 6마일, 둘레 24마일의 정방형 성벽)</text>
+
+  <!-- Grid Streets (Checkerboard pattern noted by Marco Polo) -->
+  <g stroke="#e2d4be" stroke-width="1.5">
+    <!-- Verticals -->
+    <line x1="230" y1="100" x2="230" y2="680" stroke-dasharray="4,4"/>
+    <line x1="340" y1="100" x2="340" y2="680" stroke-dasharray="4,4"/>
+    <line x1="450" y1="100" x2="450" y2="680"/>
+    <line x1="560" y1="100" x2="560" y2="680" stroke-dasharray="4,4"/>
+    <line x1="670" y1="100" x2="670" y2="680" stroke-dasharray="4,4"/>
+    <!-- Horizontals -->
+    <line x1="120" y1="210" x2="780" y2="210" stroke-dasharray="4,4"/>
+    <line x1="120" y1="320" x2="780" y2="320" stroke-dasharray="4,4"/>
+    <line x1="120" y1="430" x2="780" y2="430"/>
+    <line x1="120" y1="540" x2="780" y2="540" stroke-dasharray="4,4"/>
+  </g>
+
+  <!-- 12 City Gates (3 on each side) -->
+  <!-- North Gates -->
+  <rect x="250" y="94" width="40" height="12" fill="#8b2500"/><text x="252" y="88" font-size="10" fill="#8b2500">건덕문</text>
+  <rect x="510" y="94" width="40" height="12" fill="#8b2500"/><text x="512" y="88" font-size="10" fill="#8b2500">안정문</text>
+  <!-- South Gates -->
+  <rect x="250" y="674" width="40" height="12" fill="#8b2500"/><text x="252" y="700" font-size="10" fill="#8b2500">순승문</text>
+  <rect x="430" y="674" width="40" height="12" fill="#b22222"/><text x="432" y="700" font-size="11" font-weight="bold" fill="#b22222">여정문(정문)</text>
+  <rect x="610" y="674" width="40" height="12" fill="#8b2500"/><text x="612" y="700" font-size="10" fill="#8b2500">문호문</text>
+  <!-- East Gates -->
+  <rect x="774" y="230" width="12" height="40" fill="#8b2500"/><text x="792" y="255" font-size="10" fill="#8b2500">광희문</text>
+  <rect x="774" y="390" width="12" height="40" fill="#8b2500"/><text x="792" y="415" font-size="10" fill="#8b2500">숭인문</text>
+  <rect x="774" y="550" width="12" height="40" fill="#8b2500"/><text x="792" y="575" font-size="10" fill="#8b2500">제화문</text>
+  <!-- West Gates -->
+  <rect x="114" y="230" width="12" height="40" fill="#8b2500"/><text x="74" y="255" font-size="10" fill="#8b2500">숙청문</text>
+  <rect x="114" y="390" width="12" height="40" fill="#8b2500"/><text x="74" y="415" font-size="10" fill="#8b2500">화의문</text>
+  <rect x="114" y="550" width="12" height="40" fill="#8b2500"/><text x="74" y="575" font-size="10" fill="#8b2500">평칙문</text>
+
+  <!-- Imperial City (Middle Enclosure) -->
+  <rect x="270" y="250" width="360" height="380" fill="#fcf3d9" stroke="#b8860b" stroke-width="3"/>
+  <text x="285" y="275" font-size="13" font-weight="bold" fill="#b8860b">황성 (둘레 6마일의 대내외성)</text>
+
+  <!-- Palace City (Forbidden Inner Enclosure) -->
+  <rect x="330" y="340" width="240" height="260" fill="#faebd7" stroke="#b22222" stroke-width="3"/>
+  
+  <!-- Great Khan's Main Palace Hall (대극전 / 대간전) -->
+  <rect x="360" y="450" width="180" height="90" fill="#d9534f" rx="4" stroke="#8b0000" stroke-width="2"/>
+  <text x="385" y="495" font-size="14" font-weight="bold" fill="#ffffff">대칸의 황궁 대전</text>
+  <text x="380" y="515" font-size="11" fill="#ffe4e1">"6천 명이 한자리에서 연회"</text>
+
+  <!-- Green Mount (청산 / 경산 / 만수산) -->
+  <circle cx="450" cy="390" r="32" fill="#4a7c59" stroke="#2d5036" stroke-width="2"/>
+  <text x="432" y="395" font-size="12" font-weight="bold" fill="#ffffff">청산</text>
+  <text x="415" y="430" font-size="10" fill="#2d5036">(사시사철 푸른 산)</text>
+
+  <!-- Taiye Lake / Lotus Lake (태액지) -->
+  <path d="M 350 360 Q 380 340 400 370 Q 390 410 350 420 Z" fill="#bce0ee" stroke="#79b7d4" stroke-width="1.5"/>
+  <text x="355" y="390" font-size="10" fill="#1b6080">태액지</text>
+
+  <!-- Bell Tower & Drum Tower in Center -->
+  <g transform="translate(430, 180)">
+    <rect width="40" height="40" fill="#8b4513" rx="4"/>
+    <text x="8" y="24" font-size="11" font-weight="bold" fill="#fff">종루</text>
+    <text x="-40" y="55" font-size="10" fill="#555">통행금지 야종(夜鐘)</text>
+  </g>
+</svg>
